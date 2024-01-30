@@ -1,6 +1,6 @@
 {
     "name": "template-rollup-ts",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A Phaser 3 TypeScript template using Rollup.",
     "scripts": {
         "dev": "rollup --watch --config rollup/rollup.config.dev.mjs --no-treeshake",
