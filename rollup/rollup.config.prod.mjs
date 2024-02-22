@@ -18,7 +18,7 @@ const phasermsg = () => {
         },
         buildEnd() {
             const line = "---------------------------------------------------------";
-            const msg = `💜💜💜 Tell us about your game! - games@phaser.io 💜💜💜`;
+            const msg = `❤️❤️❤️ Tell us about your game! - games@phaser.io ❤️❤️❤️`;
             process.stdout.write(`${line}\n${msg}\n${line}\n`);
         }
     }
