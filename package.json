@@ -1,6 +1,6 @@
 {
     "name": "template-rollup-ts",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A Phaser 3 TypeScript template using Rollup.",
     "scripts": {
         "dev": "rollup --watch --config rollup/rollup.config.dev.mjs --no-treeshake",
@@ -18,7 +18,7 @@
     },
     "homepage": "https://github.com/phaserjs/template-rollup-ts#readme",
     "dependencies": {
-        "phaser": "^3.80.0"
+        "phaser": "^3.80.1"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.23.9",
