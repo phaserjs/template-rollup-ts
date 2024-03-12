@@ -2,6 +2,8 @@
 
 This is a Phaser 3 project template that uses Rollup for bundling. It supports hot-reloading for quick development workflow, inclues TypeScript support and scripts to generate production-ready builds.
 
+**[This Template is also available as a JavaScript version.](https://github.com/phaserjs/template-rollup)**
+
 ### Versions
 
 This template has been updated for:
