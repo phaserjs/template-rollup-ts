@@ -1,10 +1,12 @@
 {
     "name": "template-rollup-ts",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A Phaser 3 TypeScript template using Rollup.",
     "scripts": {
-        "dev": "rollup --watch --config rollup/rollup.config.dev.mjs --no-treeshake",
-        "build": "rollup --config rollup/rollup.config.prod.mjs"
+        "dev": "node log.js dev & rollup --watch --config rollup/rollup.config.dev.mjs --no-treeshake",
+        "build": "node log.js build & rollup --config rollup/rollup.config.prod.mjs",
+        "dev-nolog": "rollup --watch --config rollup/rollup.config.dev.mjs --no-treeshake",
+        "build-nolog": "rollup --config rollup/rollup.config.prod.mjs"
     },
     "repository": {
         "type": "git",
@@ -18,7 +20,7 @@
     },
     "homepage": "https://github.com/phaserjs/template-rollup-ts#readme",
     "dependencies": {
-        "phaser": "^3.80.1"
+        "phaser": "^3.85.1"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.24.5",
