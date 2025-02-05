@@ -73,6 +73,7 @@ export default {
         copy({
             targets: [
                 { src: 'index.html', dest: 'dist/' },
+		{ src: 'public/*', dest: 'dist/' },
             ],
             copyOnce: true
         })
