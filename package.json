@@ -20,7 +20,7 @@
     },
     "homepage": "https://github.com/phaserjs/template-rollup-ts#readme",
     "dependencies": {
-        "phaser": "^3.88.2"
+        "phaser": "^3.90.0"
     },
     "devDependencies": {
         "@babel/preset-env": "7.26.9",
